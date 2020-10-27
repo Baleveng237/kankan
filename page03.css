@@ -1,0 +1,374 @@
+
+
+#imagePrincipale{
+    padding-top: 60px;
+    background: url(page3.jpg) no-repeat fixed 50% 50%;
+    background-size: cover;
+    height: 400px;
+}
+
+.kana1
+{
+    /* display:table;*/
+   background-color: rgba(119, 119, 119, 0.281);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-attachment: fixed; 
+    margin-top: 1px;
+}
+
+
+.kana21
+{
+    /*display: table;*/
+    /*background-color: #777;*/
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-attachment: fixed;
+    margin-right: 1000px;
+    margin-left: 2px;
+    margin-top: 3px;
+    position: absolute;
+
+
+}
+.kana22{
+    margin-left: 700px;
+    margin-right: 0px;
+    display: table;
+    /*background-image: url(page32.jpg);*/
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-attachment: fixed;
+    margin-top: 3px;
+    position: relative;
+
+
+}
+nav{
+    background: #1c1e208a;
+    height: 30px;
+    width: 100%;
+    
+}
+label.logo{
+    background: #33353600;
+     color: white;
+    font-size: 30px;
+    line-height: 40px;
+    padding:2 6px;
+    font-weight: bold;
+    padding-left: 0%;
+}
+
+.menu-bar
+{
+     background: #4a4f58a6;
+    text-align: center;
+    padding-left: 1%;
+    
+    
+}
+.menu-bar ul
+{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+    
+}
+.menu-bar ul li
+{
+    width: 120px;
+    margin:15px;
+    padding: 5px;
+}
+.menu-bar ul li a
+{
+    text-decoration: none;
+    color: #fff;
+    
+}
+.active, .menu-bar ul li:hover
+{
+    background:#2bab0d;
+    border-radius: 3px;
+    
+      
+}
+.menu-bar .fa
+{
+    margin-right: 8px;
+}
+.sub-menu-1
+{
+    display: none;
+   
+}
+
+.menu-bar ul li:hover .sub-menu-1
+{
+    display: block;
+    position: fixed;
+    background:rgba(57, 190, 214, 0.219);
+    margin-top:15px;
+    margin-left: -15px;  
+}
+.menu-bar ul li:hover .sub-menu-1 ul
+{
+    display: block;
+    margin: 10px;
+    
+}
+.menu-bar ul li:hover.sub-menu-1 ul li
+{
+    width: 150px;
+    padding: 100px;
+    border-bottom: 0px dotted #fff;
+    background: transparent;
+    border-radius: 1px;
+    text-align: left;
+ 
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child
+{
+    border-bottom:none;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover
+
+{
+    color: #b2ff00;
+}
+.fa-angle-right
+{
+    float: right;
+    
+}
+.sub-menu-2
+{
+    display: none;
+}
+.hover-me:hover .sub-menu-2
+{
+    position: absolute;
+    display: block;
+    margin-right: -40px;
+    margin-left: 140px;
+    background:rgb(0,100,0);
+    
+}
+.kana19{
+    padding: 5px;
+    width: 80%;
+    margin: auto;
+    min-width: 460px;
+    color: rgb(50, 50, 202);
+   
+
+}
+footer{
+    position: relative;
+}
+
+
+.footer-wrapper{
+    left: 0;
+    
+    width: 100%;
+    height: auto;
+    position: relative;
+   /* z-index: 1;*/
+    bottom: 0;
+    margin: 10px auto;
+   background-color: rgba(112, 110, 138, 0.932);
+   
+ 
+}
+.single-footer{
+   width: 25%;
+  
+    background-color: #142f6600;
+    float: left;
+    text-align: left;
+    color: white;
+    /*position: relative;*/
+    
+}
+.single-footer ul{
+    background-color: #45a049;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+.single-footer ul a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(247, 247, 247);
+    font-size: 12px;
+}
+.single-footer p{
+    width: 70%;
+
+}    
+.d1{
+    width: 576px;
+    height: 432px;
+    margin: 50px auto;
+    box-shadow: 0px 15px 10px -5px #777;
+    background-color: #EDEDED;
+    background-size: contain;
+    animation: fondu 30s ease-in-out infinite both;
+}
+.conteneur{
+    max-width: 576px;
+    margin: 50px auto;
+}
+.d2{
+    width: 576px;
+    height: 432px;
+    margin: 50px auto;
+    box-shadow: 0px 15px 10px -5px #777;
+    background-color: #EDEDED;
+    background-size: contain;
+    animation: fondu2 30s ease-in-out infinite both;
+    
+}
+.d3{
+    width: 100%;
+    height: 100px;
+    padding-top: 70%;
+    background-repeat:repeat-x;
+    box-shadow: 0px 15px 10px #777;
+    background-color: #EDEDED;
+    background-size: contain;
+    animation: fondu2 25s ease-in-out infinite both;
+    
+}
+.d1:hover, .d2:hover{
+    animation-play-state: paused;
+}
+@keyframes fondu{
+    0%{background-image: url("page32.jpg");}
+    100%{background-image: url("motor.jpg");}
+    80%{background-image: url("page33.jpg");}
+    100%{background-image: url("page31.jpg");}
+}
+@keyframes fondu2{
+    0%{background-image: url("fondu22.jpg");}
+    100%{background-image: url("fondu2.jpg");}
+    80%{background-image: url("fondu21.jpg");}
+    100%{background-image: url("fondu23.jpg");}
+    100%{background-image: url("fondu20.jpg");}
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;S;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #4569a0;
+  }
+  
+  .kana23{
+    border-radius: 5px;
+    background-color: #1a0dce6e;
+    padding: 20px;
+  }
+/* ab ici le reste est 
+
+
+ramace en route sur face*/
+.company-details{ 
+	overflow: hidden; 
+	padding: 3em 0em; 
+	background: #001e3a7c; 
+	text-align: center; 
+	margin-top: 5em; 
+} 
+
+#footer #col1, 
+#footer #col2, 
+#footer #col3{ 
+	float: left; 
+	width: 320px; 
+	padding: 0px 40px 0px 40px; 
+} 
+	
+#footer #icon{ 
+	display: block; 
+	margin-bottom: 1em; 
+	font-size: 3em; 
+} 
+
+/*** Adding Styles to Copyright Div ***/
+.copyright 
+{ 
+	overflow: hidden; 
+	padding: 5em 3em; 
+	border-top: 20px solid rgba(255, 255, 255, 0.08); 
+	text-align: center; 
+	background: #4c6baf; 
+} 
+	
+.copyright p 
+{ 
+	letter-spacing: 1px; 
+	font-size: 0.90em; 
+	color: rgba(255, 255, 255, 0.6); 
+} 
+	
+.copyright a 
+{ 
+	text-decoration: none; 
+	color: rgba(255, 255, 255, 0.8); 
+} 
+
+/* Styling Social Icons */
+ul.contact{ 
+	margin: 0; 
+	padding: 2em 0em 0em 0em; 
+	list-style: none; 
+} 
+	
+ul.contact li{ 
+	display: inline-block; 
+	padding: 2em 10em; /* ici c'est poour les Serparer sutout le 10 ci */
+	font-size: 1em; 
+} 
+
+ul.contact li a{ 
+	color: #FFF; 
+	display: inline-block; 
+	background: #4C93B9; 
+	width: 40px; 
+	height: 40px; 
+	line-height: 40px; 
+	text-align: center; 
+} 
+
+
